@@ -24,3 +24,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+
+.fruit {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.collection img {
+  align-self: center;
+}
+
+.text {
+  text-align: center;
+}
